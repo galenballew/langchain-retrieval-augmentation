@@ -1,0 +1,7 @@
+langchain==0.0.191
+openai
+wikipedia
+pyowm
+chromadb
+tiktoken
+wolframalpha
