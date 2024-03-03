@@ -1,3 +1,11 @@
+# Retrieval Augmented Generation
+Retrieval-augmented generation (RAG) is a natural language processing (NLP) approach that combines elements of both retrieval and generation models to improve the performance of various language tasks. In the context of information retrieval, RAG models aim to effectively retrieve relevant information from a large dataset or knowledge base and then generate a response based on that retrieved information.
+
+This project uses the Langchain RetrievalQA, OpenAI GPT-3.5 Turbo, and ChromaDB to build a RAG application over the course catalog for the University of Washington Computer Science and Engineering. The catalog is converted to embeddings and the vectors are saved to disk, where they can be loaded and queried against. 
+
+Running this project requries the use of an OpenAI API key. 
+
+
 # How to use this repository
 
 Below are file descriptions for the new/significant files in alphabetical order to guide you on the layout of this repository.
